@@ -1,0 +1,35 @@
+:root {
+  --primary-bg-colour: #f5d04e;
+  --card-bg-colour: #ffffff;
+  --text-primary-colour: #0d0d0d;
+  --text-secondary-colour: #a5a5a5;
+  --primary-border-colour: #090200;
+  --radius-width: 3em;
+  --edge-width: 0.0625em;
+  margin: 2em;
+  font-size: 16px;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+.temp-border {
+  border: 10xp solid black;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  border: 1px solid var(--primary-border-colour);
+  border-radius: 3em;
+  background-color: var(--card-bg-colour);
+  width: 28em;
+  height: 34em;
+  padding: 2em;
+}
+.card img {
+  border-radius: 3em;
+}
